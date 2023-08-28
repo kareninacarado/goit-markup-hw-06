@@ -876,7 +876,7 @@ img {
   
   /* Modal Forms */
 
-  .form-header {
+.form-header {
     /* padding-top: 72px;
     padding-left: 24px;
     padding-right: 24px; */
@@ -943,12 +943,12 @@ img {
 .form-input:hover, 
 .form-textarea:hover, 
 .form-textarea:focus {
-    border: 1px solid var(--iris, #4D5AE5);
+    border: 1px solid var(--iriscolor);
 }
 
 .form-input:focus+.form-input-icon,
 .form-input:hover+.form-input-icon {
-    fill: var(--iris);
+    fill: var(--iriscolor);
 }
 .form-textarea {
     width: 360px;
