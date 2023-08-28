@@ -6,8 +6,11 @@
     <title>Homework 6</title>
         <!--CSS-->
     <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
+    
 </head>
 <body>
     <!-- header part--> 
@@ -250,7 +253,7 @@
                         <img class="team-item-image" src="./images/our-team-4.jpg" alt="Daniel Wilson" width="264" height="260"/>
                         <div class="team-content">
                             <h3 class="team-name">Daniel Wilson</h3>
-                            <p class="team-description">UI Designer</p>
+                            <p class="team-position">UI Designer</p>
                             <ul class="team-socials list">
                                 <li>
                                     <a class="team-socials-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
@@ -341,47 +344,51 @@
 </body>
 
     <!--This is the footer-->
-    <footer class="footer">
-        <div class="container row">
-            <div class="footer-container">
+    <footer class="page-footer">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-address">
                     <a class="footer-logo link" href="./index.html">
                         <span class="footer-web-logo">WEB</span><span class="footer-studio-logo">STUDIO</span>
                     </a>
                     <p class="footer-item">
                     Increase the flow of customers and sales <br> for your business with digital <br> marketing & growth solutions.
                     </p>
+                </div>
 
-            </div>
+
+          
+
             <div class="footer-container footer-socials-link_box">
                 <p class="footer-socials-links_text">Social Media</p>
                 <ul class="footer-socials list">
-                    <li>
+                    <li class="footer-socials-item">
                         <a class="footer-socials-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                            <svg class="team-socials-link_box">
+                            <svg class="team-socials-link_box" width="24" height="24">
                                 <use href="./images/icons.svg#instagram"></use>
                             </svg>
                         </a>
                     </li>
 
-                    <li>
+                    <li class="footer-socials-item">
                         <a class="footer-socials-link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <svg class="team-socials-link_box">
+                            <svg class="team-socials-link_box" width="24" height="24">
                                 <use href="./images/icons.svg#twitter"></use>
                             </svg>
                         </a>
                     </li>
 
-                    <li>
+                    <li class="footer-socials-item">
                         <a class="footer-socials-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                            <svg class="team-socials-link_box">
+                            <svg class="team-socials-link_box" width="24" height="24">
                                 <use href="./images/icons.svg#facebook"></use>
                             </svg>
                         </a>
                     </li>
                     
-                    <li>
+                    <li class="footer-socials-item">
                         <a class="footer-socials-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                            <svg class="team-socials-link_box">
+                            <svg class="team-socials-link_box" width="24" height="24">
                                 <use href="./images/icons.svg#linkedin"></use>
                             </svg>
                         </a>
@@ -403,7 +410,8 @@
                 </form>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
     <!--Modal for Order Service button-->
     <div class="modal-bg is-hidden" data-modal>
